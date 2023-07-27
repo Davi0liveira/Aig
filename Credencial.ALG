@@ -11,10 +11,12 @@ leia (user)
 escreva ("Digite a sua senha: ")
 leia (password)
 
-equanto (user <> "admin") ou (password <> "admin")faca
+enquanto (user <> "admin") ou (password <> "admin")faca
+       escreval ("Usuário ou Senha inválidos")
        escreva ("Digite o seu usuário: ")
        leia (user)
        escreva ("Digite a sua senha: ")
        leia (password)
-
+fimenquanto
+ escreval ("Seja bem vindo ao sistema")
 Fimalgoritmo
